@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5302" started-at="2018-10-26T03:14:36Z" finished-at="2018-10-26T03:14:42Z">
+  <suite name="Default suite" duration-ms="5781" started-at="2018-10-26T04:53:09Z" finished-at="2018-10-26T04:53:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5302" started-at="2018-10-26T03:14:36Z" finished-at="2018-10-26T03:14:42Z">
+    <test name="Default test" duration-ms="5781" started-at="2018-10-26T04:53:09Z" finished-at="2018-10-26T04:53:15Z">
       <class name="getRequest.GetData">
-        <test-method status="PASS" signature="testDoesWonderWomenMovieExist()[pri:0, instance:getRequest.GetData@4de8b406]" name="testDoesWonderWomenMovieExist" duration-ms="4010" started-at="2018-10-26T14:14:36Z" finished-at="2018-10-26T14:14:40Z">
+        <test-method status="PASS" signature="testDoesWonderWomenMovieImageExist()[pri:0, instance:getRequest.GetData@4de8b406]" name="testDoesWonderWomenMovieImageExist" duration-ms="3425" started-at="2018-10-26T15:53:09Z" finished-at="2018-10-26T15:53:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDoesWonderWomenMovieExist -->
-        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:getRequest.GetData@4de8b406]" name="testResponseCode" duration-ms="1269" started-at="2018-10-26T14:14:40Z" finished-at="2018-10-26T14:14:42Z">
+        </test-method> <!-- testDoesWonderWomenMovieImageExist -->
+        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:getRequest.GetData@4de8b406]" name="testResponseCode" duration-ms="2326" started-at="2018-10-26T15:53:13Z" finished-at="2018-10-26T15:53:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseCode -->
