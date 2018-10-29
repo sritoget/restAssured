@@ -3,7 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="getRequest.GetData"/>
+      <class name="getRequest.GetData">
+        <methods>
+          <include name="testJsonServerUpdateBookRequest"/>
+        </methods>
+      </class> <!-- getRequest.GetData -->
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="getRequest.GetData">
+        <methods>
+          <include name="testJsonServerUpdateBookRequest"/>
+        </methods>
+      </class> <!-- getRequest.GetData -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

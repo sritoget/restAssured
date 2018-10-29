@@ -32,6 +32,10 @@ public class GetData {
 		Assert.assertTrue(data.contains("wonderWoman.jpg"));
 	}
 	
+	//Below will only work with JSON-Server in place
+	// https://github.com/typicode/json-server
+	
+	
 	@Test
 	public void testJsonServerNewBookRequest(String bookId)
 	{
@@ -50,8 +54,7 @@ public class GetData {
 		int code=resp.getStatusCode();
 		Assert.assertEquals(code, 201);
 	}
-	
-	
+		
 	@Test
 	public void testJsonServerDeleteBookRequest()
 	{
@@ -84,6 +87,7 @@ public class GetData {
 		Assert.assertEquals(code, 200);
 		
 	}
+	
 	
 	
 }
