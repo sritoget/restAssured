@@ -88,6 +88,38 @@ public class GetData {
 		
 	}
 	
+	@Test
+	public void testUsingGivenWhenThen()
+	{
+		given().
+		get("http://localhost:3000/posts/13").
+		then().
+		statusCode(200).log().all();
+	}
 	
+	
+	@Test
+	public void testValidatingUsingEqualToExpression()
+	{
+		given().
+		get("http://localhost:3000/posts/13").
+		then().body("author", equalTo("Srikrishna")).log().all();
+	}
+	
+	@Test
+	public void testValidatingUsingHasItemsExpression()
+	{
+		given().
+		get("http://localhost:3000/posts").
+		then().body("author", hasItems("Srikrishna")).log().all();
+	}
+	
+	
+	@Test
+	public void testGetResponseAsString()
+	{
+		String response=get("http://localhost:3000/posts").asString();
+		System.out.println("Response :"+response);	
+	}
 	
 }
